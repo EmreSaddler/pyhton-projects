@@ -22,7 +22,7 @@ for line in lines:
 
     cv.line(rescaled, (x1,y1), (x2,y2), (0,255,0), thickness = 2)
 
-cv.imshow('dsa', edge)
-cv.imshow('asdas', rescaled)
+cv.imshow('Edges', edge)
+cv.imshow('Lines detected in the image', rescaled)
 
 cv.waitKey(0)
